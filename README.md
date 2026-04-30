@@ -1,50 +1,31 @@
-# ai-resume-analyzer-rag
-Built an AI-powered resume analyzer using Python, Streamlit, and NLP-based similarity scoring to compare resumes against job descriptions, identify missing skills, and generate improvement recommendations.
 
----
+# AI Resume Analyzer with RAG-style Skill Matching
 
-# 🤖 Project 2: AI Job Search Assistant (GitHub Description)
+This project analyzes a resume against a job description and returns:
+- Resume-job match score
+- Skills found in resume
+- Skills required by the job
+- Missing skills
+- Resume improvement suggestions
 
-**Repo Name:** `ai-job-search-assistant`
-
-**Description:**
-> AI-based job recommendation system that matches user skills with job roles, ranks opportunities, and provides explainable insights and skill improvement suggestions.
-
----
-
-
-```md
-# 🤖 AI Job Search Assistant
-
-## 🚀 Overview
-This project recommends jobs based on a user’s skills and provides:
-- Top matching jobs
-- Match scores
-- Skill gap analysis
-- Personalized improvement suggestions
-
-## 🎯 Key Features
-- Skill-based job matching
-- Ranking system using similarity scoring
-- Explainable AI-style recommendations
-- Interactive UI using Streamlit
-
-## 🧱 Tech Stack
+## Tech Stack
 - Python
-- Pandas
 - Streamlit
+- Scikit-learn
+- PyPDF
 
-## 💡 How It Works
-1. User inputs skills
-2. System compares against job dataset
-3. Calculates match scores
-4. Ranks jobs
-5. Provides:
-   - Match explanation
-   - Missing skills
-   - Learning recommendations
+## Why this project matters
+This project demonstrates practical skills in:
+- NLP-style text processing
+- Resume/job matching
+- Prompt/RAG-style evaluation logic
+- Dashboard development
 
-## ▶️ Run Locally
+## How to Run
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+```
+
+## Resume Bullet
+Built an AI-powered resume analyzer using Python, Streamlit, and NLP-based similarity scoring to compare resumes against job descriptions, identify missing skills, and generate improvement recommendations.

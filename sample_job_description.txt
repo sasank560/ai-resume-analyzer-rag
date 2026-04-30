@@ -1,0 +1,10 @@
+Early Career Data Scientist
+
+Responsibilities:
+Develop predictive models and machine learning algorithms.
+Experiment with LLM prompts, fine-tuning techniques, and RAG pipelines.
+Perform statistical analysis on user interaction data.
+Monitor model performance and communicate insights.
+
+Qualifications:
+Python, SQL, machine learning libraries, NLP, LLM architectures, prompt engineering, RAG, communication skills.
